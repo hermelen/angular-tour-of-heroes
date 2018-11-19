@@ -1,0 +1,26 @@
+ul.heroes {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  li {
+    padding: 1em 1em 1em 0;
+    background-color: rgb(255, 154, 48);
+    border-radius: 5px;
+    margin: 1em;
+    width: 25%;
+    span {
+      background-color: rgb(119, 183, 230);
+      border-radius: 5px 0 0 5px;
+      padding: 1em 1em 1em 1em;
+    }
+  }
+  li:hover {
+    background-color: rgb(193, 133, 71);
+    color: white;
+    span {
+      background-color: rgb(117, 164, 198);
+      color: white;
+    }
+  }
+}

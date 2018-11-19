@@ -1,0 +1,25 @@
+// app-root {
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      background-color: rgb(29, 0, 91);
+      justify-content: space-around;
+      li {
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+    }
+  }
+// }
